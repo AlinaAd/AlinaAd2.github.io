@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--ширина видимой области веб-страницы равнялась CSS ширине устройств-->
+	<title>Цветные квадраты</title>
+	<link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+	<button id="start" onclick="startGame()">Старт</button>
+
+	<div class="level">
+		Уровень <span id="my_level">0</span>
+	</div>
+
+	<div class="time">
+		До конца игры осталось <span id="timer">0</span> секунд.
+	</div>
+
+	<table id="my_table"></table>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
