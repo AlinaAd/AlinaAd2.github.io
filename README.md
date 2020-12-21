@@ -1,2 +1,2 @@
-# AlinaAd.github.io
+# AlinaAd2.github.io
 Игра "Цветные квадраты"
